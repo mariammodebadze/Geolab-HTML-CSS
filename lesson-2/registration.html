@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar-expand-lg  navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Home.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="registration.html">Registration</a>
+                </li>
+
+
+                </li>
+            </ul>
+
+
+
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="shadow p-3 mb-5 bg-white rounded  m-5  p-5 ">
+
+
+        <p class="title">Gym Membersip Form</p>
+        <br>
+        <img src="image04.jpeg" class="img-fluid" width="470" height="225">
+        <p>Want to become </p>
+
+
+
+        <form action="Home.html">
+
+            <div class="form-group">
+                <p>Name</p>
+                <input type="text" class="form-control" value="first"> <br>
+                <input type="text" class="form-control" value="last">
+            </div>
+
+            <div>Gender</div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="male" name="gb" value="m" />
+                <label class="form-check-label" for="male">Male</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="female" name="gb" value="f" />
+                <label class="form-check-label" for="female">Female</label>
+            </div>
+
+            <br> <br>
+
+            <div class="form-group">
+                <label for="weight">Your current weight (lbs)</label>
+                <input type="text" class="form-control" id="weight">
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="desired">Disired weight </label>
+                <input type="text" class="form-control" id="desired">
+            </div>
+
+            <div class="form-group">
+                <label for="height">Height</label> <br>
+                <input type="text" class="form-control" id="height">
+            </div>
+
+            <p>Home address </p>
+            <div class="form-group">
+                <input type="text" class="form-control mb-1" value="Street address">
+                <input type="text" class="form-control mb-1" value="City">
+                <input type="text" class="form-control mb-1" value="Country">
+            </div>
+            <div class="form-group">
+                <label for="E">Email</label> <br>
+                <input type="text" class="form-control" id="E">
+            </div>
+            <div class="form-group">
+                <label for="ph">Phone</label>
+                <input type="text" class="form-control" id="ph">
+            </div>
+            <p>Have you been in a Gym before?</p>
+
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="yes" name="gym" value="y" />
+                <label for="yes">Yes</label>
+            </div>
+
+
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" id="no" name="gym" value="n" />
+                <label for="no">No</label>
+            </div>
+
+
+
+            <p>Membership Type</p>
+            <div class="form-check form-check-inline">
+
+
+                <input type="checkbox" class="form-check-input" id="type1" name="type1" value="regular">
+                <label for="type1">Regular</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" id="type2" name="type2" value="pro">
+                <label for="type2">Pro</label>
+            </div>
+            <div class="form-check form-check-inline">
+
+                <input type="checkbox" class="form-check-input" id="type3" name="type3" value="vip">
+                <label for="type3">VIP</label>
+            </div>
+
+
+
+
+            <label for="comment">Add Comment:</label>
+            <textarea class="form-control" id="comment" name="comment" rows="6" cols="70"></textarea>
+            <br> <br>
+            <input type="submit" class="btn btn-success" value="Apply">
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>

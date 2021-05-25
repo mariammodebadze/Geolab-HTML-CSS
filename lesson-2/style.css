@@ -1,0 +1,15 @@
+body {
+    background-color: #e6f2ff;
+}
+
+.title {font-weight: bold;
+    color: rgb(25, 116, 116);
+    font-size: 20px;
+}
+nav .navbar-nav li a{
+    color: #b0d5fc  !important;
+}
+
+nav .navbar-nav li a:hover{
+    color: #f5f6f7  !important;
+}
