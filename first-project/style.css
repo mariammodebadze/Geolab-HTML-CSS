@@ -1,18 +1,148 @@
 body {
     background-color: #e6f2ff;
 }
-.title {font-weight: bold;
+
+.about-georgian-cusine {
+    position: relative;
+    padding: 50px 0 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
     color: rgb(25, 116, 116);
     font-size: 20px;
 }
-nav .navbar-nav li a{
-    color: #b0d5fc  !important;
+
+nav .navbar-nav li a {
+    color: #b0d5fc !important;
 }
-nav .navbar-nav li a:hover{
-    color: #f5f6f7  !important;
+
+nav .navbar-nav li a:hover {
+    color: #f5f6f7 !important;
 }
 
 .px-contact {
-    padding-left:20px!important;
-    padding-right:20px!important;
-  }
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.order_button {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.card-text {
+    color:#504803
+}
+
+.card-title {
+    color:#0e0f0f
+}
+
+.btn-primary {
+   
+    background-color: #3a3b3d !important;
+    }
+footer {
+    width: 100%;
+    background-color: #263238;
+    min-height: 100px;
+    padding: 10px 0px 25px 0px;
+    margin-bottom: 0;
+}
+
+.pt2 {
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    color: #CCC;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.mb10 {
+    padding-bottom: 15px;
+}
+
+.social_footer_ul {
+    display: table;
+    margin: 15px auto 0 auto;
+    list-style-type: none;
+}
+
+.social_footer_ul li {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+
+.social_footer_ul li a {
+    color: #CCC;
+    border: 1px solid #CCC;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.social_footer_ul li i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.order_online_font {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 32px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+
+
+.footer-dark {
+    padding: 50px 0;
+    color: #b0d5fc;
+    background-color: #282d32;
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul a {
+    color: inherit;
+}
+
+ 
+
+a {
+    color: #b7cee7 !important;
+}
+a:hover {
+    color: #96b7db !important;
+    text-decoration: none !important;
+}
