@@ -34,9 +34,21 @@ h1{
     width: 80%;
     font-size: 120%;
     float: right;
-
-    
+  
+/* 
+    margin-left: 30px ;    
+    margin-right: -32px ;   */ 
 }
+
+/* .right p, h2, div, table {
+    margin: 1%;
+} */
+
+.right *{
+    margin: 2%;
+}
+
+ 
 .left img{
     display: flex;
     align-items: center;
